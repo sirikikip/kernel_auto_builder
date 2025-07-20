@@ -21,7 +21,7 @@ jobs:
 
       - name: ⚡ Checkout kernel's sourcecode and clone submodules
         run: |
-          git clone --depth=1 https://github.com/Evolution-X-Devices/kernel_google_b4s4 -b vic
+          git clone --depth=1 https://github.com/sirikikip/kernel_google_b4s4 -b vic
         
       - name: 📅 Export date of build
         run: |
